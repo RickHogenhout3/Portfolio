@@ -51,43 +51,12 @@
     
     <header style="background-image: url('https://picsum.photos/id/130/600/400'); background-size: cover; height: 400px; display: flex; justify-content: center; align-items: center; flex-direction: column; color: white;">
     <h1 style="margin: 0; color: black;">Rick Hogenhout</h1> <br>
-    <h3 style="margin: 0; color: black;">MY PROJECTS</h3> <br>
+    <h3 style="margin: 0; color: black;">Inapage</h3> <br>
 </header>
     <main>
-    <h2 class="text-center">Projects</h2>
+    <h2 style="text-align: center;">Beschrijving</h2>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="card" style="background-color:lightseagreen" >
-        <img class="card-img-top" src="img/Julian-Soelaart.jpeg" alt="Card image cap" style="height: 400px;">
-        <div class="card-body">
-          <h5 class="card-title">jjs.digital</h5>
-          <a style="color: aliceblue; text-decoration: none;" href="project-pages/jjs-digital.php">Bekijk project</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="card" style="background-color:lightseagreen">
-        <img class="card-img-top" src="img/bg_visual_pc.jpg" alt="Card image cap" style="height: 400px;">
-        <div class="card-body">
-          <h5 class="card-title">Inapage</h5>
-          <a style="color: aliceblue; text-decoration: none;" href="project-pages/inapage.php">Bekijk project</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="card" style="background-color:lightseagreen">
-        <img class="card-img-top" src="img/Captain-VR.jpeg" alt="Card image cap" style="height: 400px;">
-        <div class="card-body">
-          <h5 class="card-title">Captain VR</h5>
-          <a style="color: aliceblue; text-decoration: none;" href="project-pages/captain-vr.php">Bekijk project</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<h3 style="text-align: center;">Meer projecten komen als ze worden aangemaakt</h3>
+<h2 style="text-align: center;">Pagina Foto's</h2>
     </main>
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Mwgh/5axf2W/xFrUsCqMKXw5Iw5O9xSSr0F2nG5S9Br6w6" crossorigin="anonymous"></script>

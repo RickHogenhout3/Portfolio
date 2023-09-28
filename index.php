@@ -13,10 +13,6 @@
     <!-- jQuery and Bootstrap JS (version 5) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Mwgh/5axf2W/xFrUsCqMKXw5Iw5O9xSSr0F2nG5S9Br6w6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
-    <style>
-        /* Your styles */
-    </style>
 
     <script>
         $(document).ready(function () {
@@ -50,6 +46,8 @@
     <button style="background-color: transparent;"><a href="#contact" style="color: black; text-decoration: none;">Contact me!</a></button>
 </header>
     <main>
+        <!-- About me section -->
+        <h1 class="text-center">About me</h1>
         <!-- Skills section -->
         <form class="text-center">
             <h1 class="text-center">Skills</h1>
@@ -76,6 +74,9 @@
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
+                                    <a>PHP</a>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 63%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
                         </div>
@@ -85,29 +86,29 @@
         </form>
 
         <!-- Contact section with an ID -->
-        <h2 id="contact" class="text-center">Contact</h2>
+        <h1 id="contact" class="text-center">Contact</h1>
         <div class="container">
             <!-- Your contact form and information here -->
             <div class="row">
                 <div class="col-md-6">
                     <form action="send.php" method="post">
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="name" class="text-center">Bedrijf-Naam:</label>
-                                <input type="text" class="form-control" id="name" name="name">
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="email" class="text-center">Email:</label>
-                                <input type="email" class="form-control" id="email" name="email">
-                            </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="name" class="text-center">Bedrijf-Naam:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
                         </div>
+                        <div class="form-group col-md-6">
+                            <label for="email" class="text-center">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                    </div>
                         <div class="form-group">
                             <label for="onderwerp" class="text-center">Onderwerp</label>
-                            <input type="text" class="form-control" id="onderwerp" name="onderwerp">
+                            <input type="text" class="form-control" id="onderwerp" name="onderwerp" required>
                         </div>
                         <div class="form-group">
                             <label for="inputMessage" class="text-center">Bericht:</label>
-                            <textarea class="form-control" id="bericht" name="bericht" rows="5"></textarea>
+                            <textarea class="form-control" id="bericht" name="bericht" rows="5" required></textarea>
                         </div>
                         <button type="submit" name="submit" value="Verstuur" class="btn btn-danger">Verstuur</button>
                     </form>
