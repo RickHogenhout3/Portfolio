@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/GMR.jpg" type="image/x-icon">
     <title>My Web</title>
 
     <!-- Bootstrap CSS (version 5) -->
@@ -63,7 +64,7 @@
         <img class="card-img-top" src="img/Julian-Soelaart.jpeg" alt="Card image cap" style="height: 400px;">
         <div class="card-body">
           <h5 class="card-title">jjs.digital</h5>
-          <a style="color: aliceblue; text-decoration: none;" href="project-pages/jjs-digital.php">Bekijk project</a>
+          <a style="color:aliceblue;" class="btn btn-secondary" href="project-pages/jjs-digital.php">Bekijk project</a>
         </div>
       </div>
     </div>
@@ -72,7 +73,7 @@
         <img class="card-img-top" src="img/bg_visual_pc.jpg" alt="Card image cap" style="height: 400px;">
         <div class="card-body">
           <h5 class="card-title">Inapage</h5>
-          <a style="color: aliceblue; text-decoration: none;" href="project-pages/inapage.php">Bekijk project</a>
+          <a style="color:aliceblue;" class="btn btn-secondary" href="project-pages/inapage.php">Bekijk project</a>
         </div>
       </div>
     </div>
@@ -81,7 +82,7 @@
         <img class="card-img-top" src="img/Captain-VR.jpeg" alt="Card image cap" style="height: 400px;">
         <div class="card-body">
           <h5 class="card-title">Captain VR</h5>
-          <a style="color: aliceblue; text-decoration: none;" href="project-pages/captain-vr.php">Bekijk project</a>
+          <a style="color:aliceblue;" class="btn btn-secondary" href="project-pages/captain-vr.php">Bekijk project</a>
         </div>
       </div>
     </div>

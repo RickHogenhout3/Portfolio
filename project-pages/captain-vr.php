@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="../img/GMR.jpg" type="image/x-icon">
     <title>My Web</title>
 
     <!-- Bootstrap CSS (version 5) -->
@@ -15,13 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <style>
-        .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .card-img-top {
+  .img {
     object-fit: cover; /* Maintain aspect ratio and cover the entire card */
     height: 100%; /* Ensure the image takes up the full height of the card body */
   }
@@ -53,11 +48,30 @@
     <h1 style="margin: 0; color: black;">Rick Hogenhout</h1> <br>
     <h3 style="margin: 0; color: black;">Captain VR</h3> <br>
 </header>
-    <main>
+<main>
     <h2 style="text-align: center;">Beschrijving</h2>
+    <h2 style="text-align: center;">Pagina Foto's</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img style="object-fit: cover; width: 100%;" class="image" src="project-img/captain-vr/Screenshot 2023-10-04 122139.png" alt="page 1">
+            </div>
+            <div class="col-sm-6">
+                <img class="image" style="width: 100%; height:100%;" src="project-img/captain-vr/Screenshot 2023-10-04 122342.png" alt="page 2">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="image" style="width: 100%; height:100%;" src="project-img/captain-vr/Screenshot 2023-10-04 122523.png" alt="page 4">
+            </div>
+            <div class="col-sm-6">
+                <img class="image" style="width: 100%;" src="project-img/captain-vr/Screenshot 2023-10-04 122447.png" alt="page 3">
+            </div>
+        </div>
+    </div>
+</main>
 
-<h2 style="text-align: center;">Pagina Foto's</h2>
-    </main>
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Mwgh/5axf2W/xFrUsCqMKXw5Iw5O9xSSr0F2nG5S9Br6w6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

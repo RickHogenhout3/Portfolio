@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <head><link rel="icon" href="img/GMR.jpg" type="image/x-icon"></head>
+    <link rel="stylesheet" href="output.css">
     <title>My Web</title>
 
     <!-- Bootstrap CSS (version 5) -->
@@ -39,8 +41,8 @@
         <!-- Navigation bar content goes here -->
     </header>
     
-    <header style="background-image: url('https://picsum.photos/id/130/600/400'); background-size: cover; height: 400px; display: flex; justify-content: center; align-items: center; flex-direction: column; color: white;">
-    <h1 style="margin: 0; color: black;">Rick Hogenhout</h1> <br>
+    <header style="background-image: url('https://picsum.photos/id/130/600/400'); background-size: cover; height: 400px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <h1 class="text-lime-300npx gvi tailwindcssxl ">Rick Hogenhout</h1> <br>
     <h3 style="margin: 0; color: black;">MY PORTFOLIO</h3> <br>
     <!-- "Contact me!" button with a link to the Contact section -->
     <button style="background-color: transparent;"><a href="#contact" style="color: black; text-decoration: none;">Contact me!</a></button>

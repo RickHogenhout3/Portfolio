@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="../img/GMR.jpg" type="image/x-icon">
     <title>My Web</title>
 
     <!-- Bootstrap CSS (version 5) -->
