@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
 
-    $mail->setFrom($_POST['email']);
+    $mail->setFrom($_POST['email'], $_POST['name']);
 
     $mail->addAddress('3001rick@gmail.com');
 
@@ -30,11 +30,10 @@ if (isset($_POST['submit'])) {
     $mail->Body .= "<br><br>Ons bedrijf is: " . $_POST['name'];
 
     $mail->send();
-
-    echo "
+?>
     <script>
         alert('Email is verstuurd!');
         window.location.href='index.php';
     </script>
-    ";
+    <?php
 }

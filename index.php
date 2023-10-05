@@ -50,6 +50,20 @@
     <main>
         <!-- About me section -->
         <h1 class="text-center">About me</h1>
+<div class="row">
+    <div class="col-md-5 offset-md-3" style="text-align: center;">
+        <H5>
+            Hallo en welkom bij mijn website, ik zou het leuk vinden als je mij een kans geeft en eventjes erdoorheen gaat bladeren. Feedback om de pagina beter te maken is altijd welkom want ik wil hiermee het beste van mijzelf laten zien!
+        </H5>
+    </div>
+    <div class="col-md-5 offset-md-3 text-center">
+        <button class="btn btn-info">Mijn CV</button>
+    </div>
+    <div class="col-md-2">
+        <img src="img/_0078_BIT-210831-2189.jpg" alt="IK" style="max-width: 100%;">
+    </div>
+</div>
+
         <!-- Skills section -->
         <form class="text-center">
             <h1 class="text-center">Skills</h1>
@@ -94,12 +108,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <form action="send.php" method="post">
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
                             <label for="name" class="text-center">Bedrijf-Naam:</label>
                             <input type="text" class="form-control" id="name" name="name" required>
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="col-md-6">
                             <label for="email" class="text-center">Email:</label>
                             <input type="email" class="form-control" id="email" name="email" required>
                         </div>

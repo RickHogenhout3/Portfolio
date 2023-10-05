@@ -53,6 +53,7 @@
     <header style="background-image: url('https://picsum.photos/id/130/600/400'); background-size: cover; height: 400px; display: flex; justify-content: center; align-items: center; flex-direction: column; color: white;">
     <h1 style="margin: 0; color: black;">Rick Hogenhout</h1> <br>
     <h3 style="margin: 0; color: black;">MY PROJECTS</h3> <br>
+    <p style="color: black;">Hier zijn wat pagina's die ik heb gebouwd kijk er even doorheen!</p>
 </header>
     <main>
     <h2 class="text-center">Projects</h2>

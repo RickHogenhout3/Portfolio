@@ -50,6 +50,7 @@
 </header>
 <main>
     <h2 style="text-align: center;">Beschrijving</h2>
+    <h5 style="text-align: center;">Dit project was gemaakt omdat we 1 keer met een echt bedrijf samen moesten werken voor 1 week lang het was erg leuk en heel erg interesant om daaraan mee te doen en dit is er daarbij uitgekomen</h5>
     <h2 style="text-align: center;">Pagina Foto's</h2>
     <div class="container">
         <div class="row">
