@@ -50,6 +50,7 @@
     <h3 style="margin: 0; color: black;">jjs.digital</h3> <br>
 </header>
     <main>
+    <a href="../projects.php" class="btn btn-danger">Terug</a>
 <h2 style="text-align: center;">Beschrijving</h2>
 <h5 style="text-align: center;">jjs.digital is een website die ik heb gemaakt voor een klant. De website is gemaakt met HTML, CSS en PHP. De website is gemaakt met Bootstrap 5.</h5>
 <h5 style="text-align: center;">Een project die ik ben aangegaan voor een kennis van mij om zijn eigen bedrijf op de rit te krijgen en hem een leuke website te geven om hem in te boeken/te leren kennen <br> het was erg leuk om eraan te werken en ook om mezelf wat nieuwe dingen te leren die ik nu ook goed kan implimenteren voor andere dingen <br> de foto's zijn nog een beetje outdated omdat ik er veel meer nog aan heb toegevoegd en de texten heb aangepast</h5>
